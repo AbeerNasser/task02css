@@ -1,0 +1,256 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    /* text-align: center; */
+}
+
+/* header */
+    .header{
+        background-image: url("images/header-bg.jpg");
+        background-repeat: no-repeat;
+        padding: 2px;
+        height:500px;
+        text-align: center;
+    }
+    .w2{
+        background-color: black;
+        opacity: 0.8;
+        height:500px;
+    }
+    .nav{
+        background-image: url("images/logo.png");
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 5%;
+    }
+    .nav ul{
+        margin-left: 30%;
+        padding-top: 11px;
+    }
+    .nav ul li{
+        display: inline-block;
+        color: #fff;
+        margin-left: 2%;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .headerContent{
+        padding: 2%;
+        /* margin: auto; */
+    }
+    .headerContent .left{
+    color: #fff;
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+    text-align: justify;
+    margin-top: 5%;
+    }
+
+    .headerContent .right{
+    color: #fff;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    border: 1px solid #ccc;
+    /* opacity: 0.4; */
+    background-color: rgba(53, 53, 92,0.5);
+    }
+    select,input,button{
+        margin-bottom: 4%;
+        padding: 1%;
+    }
+    .full{
+        width: 90%;
+    }
+    input{
+    width: 87%;
+    }
+    .half{
+        width: 43%;
+    }
+    .right button,.left button{
+        background-color:orange;
+        color: #fff;
+        border: 1px solid orange;
+    }
+
+
+/*div 2*/
+    .divCenter{
+        text-align: center;
+        clear: both;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .divCenter p{
+        color: rgb(163, 157, 157);
+    }
+
+
+
+/*4divs*/
+    .container4divs{
+        width: 80%;
+        margin-left: 20%;
+        /* text-align: center; */
+    }
+    .top >div,.bottom >div{
+    display: inline-block;
+    width:20%;
+    background-color: #eee;
+    padding: 2%;
+    margin: 1%;
+    border-radius:5% ;
+    }
+    .top >div img{
+        display: inline-block;
+    }
+    .top >div h3,.bottom >div h3 {
+        display: inline-block;
+    }
+    .top >div p,.bottom >div p{
+    color: rgb(163, 157, 157);
+    }
+
+
+/*car with div*/
+    .carwithdiv,.divwithcar{
+        margin: 4%;
+    }
+    .carwithdiv .left{
+        float: left;
+        width: 50%;
+    }
+    .carwithdiv .left img{
+        width: 100%;
+        /* margin: 3%; */
+    }
+    .carwithdiv .right{
+        float: right;
+        width: 45%;
+        padding-top: 6%;
+    }
+
+
+/*div with car*/
+    .divwithcar .left{
+        float: left;
+        width: 50%;
+    }
+    .divwithcar .left h4{
+        display: inline-block;
+    }
+    .divwithcar .left h2{
+        display: inline-block;
+        font-weight: bolder;
+        color: orange;
+        margin-left: 40%;
+    }
+    .divwithcar .left p{
+        color: rgb(163, 157, 157);
+    }
+    .divwithcar .left button{
+        border: none;
+        text-transform: uppercase;
+        background-color: black;
+    }
+    .divwithcar .right{
+        float: right;
+        width: 50%;
+    }
+    .clear{
+        clear: both;
+        /* position: relative; */
+
+    }
+
+
+/*fixedbg*/
+    .fixedbg{
+        position: relative;
+        /* background-image: url("images/callaction-bg.jpg");
+        background-attachment: fixed; */
+        background: fixed no-repeat url("images/callaction-bg.jpg");
+        text-align: center;
+        color: #fff;
+        margin-top: 5%;
+        padding: 10%;
+    }
+
+    /* .fixedbg .content input[type="button"]{
+        border: 1px 2px solid orange;
+
+    } */
+    .fixedbg  button{
+        /* outline: orange 1px 2px 2px 1px; */
+    border:solid  1px  orange;
+    color: orange;
+    background: none;
+    }
+
+
+/*4 imgs*/
+    .images4 div{
+    width: 20%;
+    display: inline-block;
+    padding-left: 1%;
+    margin: 1%;
+    }
+    .images4 div img{
+        width: 100%;
+    }
+    .images4 div button{
+    margin-top: 3%;
+    border: none;
+    background-color: black;
+    color: #ccc;
+    text-transform: capitalize;
+    padding: 1%;
+    }
+
+    .images4 div h3{
+        font-size: 1.5rem;
+    }
+    .images4 div p{
+        color:rgb(163, 157, 157);
+    }
+    span{
+        margin-right: 7%;
+    }
+
+
+/*footer*/
+    .footer{
+        height: 300px;
+        background-color: rgb(6, 6, 31);
+    }
+    .footer div div{
+        width: 18%;
+        display: inline-block;
+        color: rgb(163, 157, 157);
+        margin-top: 0px;
+    }
+    .footer div div h3{
+        color: #fff;
+        margin-left: 17%;
+    }
+    .footer div div ul{
+        list-style-type: none;
+    }
+    .footer div div ul li{
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+
+.copys{ 
+    text-align: center;
+    color: rgb(163, 157, 157);
+}
+
+
+i{
+    color: rgb(163, 157, 157);
+    padding-right: 2px; 
+}
